@@ -1,0 +1,13 @@
+/* Punto B: Todos los encabezados en rojo */
+h1, h2, h3, h4, h5, h6 {
+    color: #dc3545; /* Rojo "danger" de Bootstrap */
+}
+
+/* Nota sobre el Punto C: */
+/* He usado object-fit: cover en el HTML para que, al forzar 400x300px, 
+   la imagen se recorte por los lados en lugar de estirarse. */
+
+/* Ajuste sutil para el fondo si el azul de Bootstrap es muy fuerte */
+.bg-info-subtle {
+    background-color: #eef7fa !important;
+}
